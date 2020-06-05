@@ -6,7 +6,7 @@ You can run the script using following commands:
 
 >./Package_cleaner.sh
 
-**Note:** This command requires that you give excecutable permissions to the script.
+**Note:** To use this command script should have exceutable permissions.
 
 **OR**
 
