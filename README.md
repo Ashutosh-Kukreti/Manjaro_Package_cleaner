@@ -1,6 +1,8 @@
 # Manjaro-Package_cleaner
 A simple bash script for cleaning packages in Manjaro Linux or Other Arch based linux distros [including ARCH Linux :) ]
 
+In Linux distributions, a **“package”** refers to a compressed file archive containing all of the files that come with a particular application.
+
 Download the **Package_cleaner.sh** file.
 You can run the script using following commands:
 
