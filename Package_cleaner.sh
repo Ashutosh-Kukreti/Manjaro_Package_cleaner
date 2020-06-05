@@ -1,6 +1,5 @@
 #! /bin/bash 
 #A simple bash script for cleaning packages in Arch linux and  Arch based distros like Manjaro linux.
-
 #Colors used in script
 RED='\033[0;31m'
 NC='\033[0m'
@@ -37,7 +36,7 @@ echo -e "\n${RED}Package Downgrade will not be possible after this${NC}"
 #This command will clear the entire cache directory.
 sudo pacman -Scc
 
-echo -e "${WHITE}Listing Size of Package directory${NC}\n"
+echo -e "\n${WHITE}Listing Size of Package directory${NC}\n"
 du -h /var/cache/pacman/pkg | grep "/var/cache/pacman/pkg"
 
 echo -e "\n${WHITE}Cleaning Complete${NC}"
