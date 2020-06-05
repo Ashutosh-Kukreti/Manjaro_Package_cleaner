@@ -28,8 +28,8 @@ pamac clean -b -v
 #Build directory is the one specified in pamac.conf
 
 echo -e "\n${RED}Need Root privileges${NC}"
-echo -e "${WHITE}Pacman will delete all the cached packages in /var/cache/pacman/pkg/${NC}"
-echo -e "${WHITE}Remove repo will remove unused db files from /var/lib/pacman/sync${NC}"
+echo -e "${WHITE}Pacman will delete all the cached packages in ${RED}/var/cache/pacman/pkg/${NC}"
+echo -e "${WHITE}Remove repo will remove unused db files from ${RED}/var/lib/pacman/sync${NC}"
 echo -e "\n${RED}Package Downgrade will not be possible after this${NC}"
 
 #pacman - default package manager utility of ARCH Linux
