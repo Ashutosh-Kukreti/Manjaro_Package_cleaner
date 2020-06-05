@@ -37,3 +37,4 @@ echo -e "\n${WHITE}Listing Disk Usage${NC}\n"
 df -h
 
 echo -e "\n${WHITE}Cleaning Complete${NC}"
+#Yes, I am a n00b.
