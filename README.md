@@ -5,7 +5,7 @@ In Linux distributions, a **“package”** refers to a compressed file archive 
 
 **Note:** This script will not remove any applications but it will remove their setup files.
 
-Download the **Package_cleaner.sh** file.
+Download the **![Package_cleaner.sh](https://github.com/Ashutosh-Kukreti/Manjaro-Package_cleaner/releases)** file.
 You can run the script using following commands:
 
 >./Package_cleaner.sh
