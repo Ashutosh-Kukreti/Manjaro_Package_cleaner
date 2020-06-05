@@ -12,3 +12,9 @@ You can run the script using following commands:
 >Package_cleaner.sh
 
 **Screenshots:**
+
+https://github.com/Ashutosh-Kukreti/Manjaro-Package_cleaner/blob/master/cleaner%201.png
+
+https://github.com/Ashutosh-Kukreti/Manjaro-Package_cleaner/blob/master/cleaner%202.png
+
+I don't have much programming knowledge but if you have any suggestions for the script please feel free to share.
