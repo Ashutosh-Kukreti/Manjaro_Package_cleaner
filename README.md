@@ -3,7 +3,9 @@ A simple bash script for cleaning packages in Manjaro Linux or Other Arch based 
 
 In Linux distributions, a **“package”** refers to a compressed file archive containing all of the files that come with a particular application.It is like **setup files** on windows.
 
-**Note:** This script will not remove any applications but it will remove their setup files.
+**Note1:** This script will not remove any applications but it will remove their setup files.
+
+**Note2:** ![Pamac](https://wiki.manjaro.org/index.php?title=Pamac) should be installed on your distro.It is pre-installed on Manjaro.
 
 Download the **![Package_cleaner.sh](https://github.com/Ashutosh-Kukreti/Manjaro-Package_cleaner/releases)** file.
 You can run the script using following commands:
