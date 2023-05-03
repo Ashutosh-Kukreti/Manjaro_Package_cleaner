@@ -5,6 +5,9 @@ RED='\033[0;31m'
 NC='\033[0m'
 WHITE="\033[1;37m"
 
+# Since this script makes use of *pamac*, It must throw an error if *pamac* isn't installed.
+if command -v pamac >/dev/null ; then echo "${WHITE}Starting...${NC}"; else echo -e "${RED}pamac not found.\nAborting.\n\nFix: Install pamac and re-run this script.${NC}"; exit 1; fi
+
 # echo is used to display text
 #-e - enable interpretation of backslash escapes
 echo -e "${WHITE}Listing Size of Package directory${NC}\n"
